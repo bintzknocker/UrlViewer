@@ -24,8 +24,13 @@ How it works
 
 When a user selects an item in the Sitecore content tree, the renderContentEditor pipeline fires.  
 The UrlViewer processor is called.  The process method does the following
+
 1 -- Validates that the selected items path is in the configured paths.  If not, the code returns.
+
 2 -- Sets a HttpContext.Current.Item so that the value can be picked up in later processing
+
 3 -- Loops over each site defined in the Sites node, sets a new SiteContext and generates a url using the LinkManager.
+
 4 -- An html table and javascript block is generated.
+
 5 -- The markup and script block are added to the args.EditorFormatter so that they are written to the Sitecore content editor 
