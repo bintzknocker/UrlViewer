@@ -1,0 +1,16 @@
+C:\Modules\UrlViewer\UrlViewer\bin\UrlViewer.dll.config
+C:\Modules\UrlViewer\UrlViewer\bin\UrlViewer.dll
+C:\Modules\UrlViewer\UrlViewer\bin\UrlViewer.pdb
+C:\Modules\UrlViewer\UrlViewer\bin\Sitecore.Client.dll
+C:\Modules\UrlViewer\UrlViewer\bin\Sitecore.Kernel.dll
+C:\Modules\UrlViewer\UrlViewer\obj\Debug\UrlViewer.dll
+C:\Modules\UrlViewer\UrlViewer\obj\Debug\UrlViewer.pdb
+C:\Modules\UrlViewer\UrlViewer\obj\Debug\UrlViewer.csprojResolveAssemblyReference.cache
+C:\Git\UrlViewer\UrlViewer\bin\UrlViewer.dll.config
+C:\Git\UrlViewer\UrlViewer\bin\UrlViewer.dll
+C:\Git\UrlViewer\UrlViewer\bin\UrlViewer.pdb
+C:\Git\UrlViewer\UrlViewer\bin\Sitecore.Client.dll
+C:\Git\UrlViewer\UrlViewer\bin\Sitecore.Kernel.dll
+C:\Git\UrlViewer\UrlViewer\obj\Debug\UrlViewer.csprojResolveAssemblyReference.cache
+C:\Git\UrlViewer\UrlViewer\obj\Debug\UrlViewer.dll
+C:\Git\UrlViewer\UrlViewer\obj\Debug\UrlViewer.pdb
