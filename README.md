@@ -6,6 +6,7 @@ The purpose of this module is to display the URL of the selected item in the Qui
 Built and tested against 8.1 update 3
 
 Installation Instructions
+
 --DLL
 Build the solution in the desired configuration
 Copy the UrlViewer.dll into the website/bin directory
