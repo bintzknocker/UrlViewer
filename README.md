@@ -21,6 +21,7 @@ Paths -- This section is used to manage which item paths are filtered for the UR
 Sites -- This section defines which sites are used when building URLs.  
 
 How it works
+
 When a user selects an item in the Sitecore content tree, the renderContentEditor pipeline fires.  
 The UrlViewer processor is called.  The process method does the following
 1 -- Validates that the selected items path is in the configured paths.  If not, the code returns.
