@@ -7,13 +7,11 @@ Built and tested against 8.1 update 3
 
 Installation Instructions
 
-DLL
-Build the solution in the desired configuration
+DLL - Build the solution in the desired configuration
 Copy the UrlViewer.dll into the website/bin directory
 After config modifications, copy the UrlViewer.RenderContentEditor.config into the website/app_Config folder
 
-Configuration
-The UrlViewer.RenderContentEditor.config file contains all settings for this module.  The config patches in a renderContentEditor processor.
+Configuration - The UrlViewer.RenderContentEditor.config file contains all settings for this module.  The config patches in a renderContentEditor processor.
 This processor contains 2 configurable areas, paths and sites
 Paths -- This section is used to manage which item paths are filtered for the URL to display.  By default the content and media library paths are set
 Sites -- This section defines which sites are used when building URLs.  
