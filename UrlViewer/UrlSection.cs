@@ -90,12 +90,22 @@ namespace UrlViewer
                 using (new SiteContextSwitcher(SiteContextFactory.GetSiteContext(site.Name)))
                 {
                     string url = "";
-                    url = item.Paths.IsMediaItem ? MediaManager.GetMediaUrl(item) : LinkManager.GetItemUrl(item);
+                    url = item.Paths.IsMediaItem ? GetMediaUrl(item) : GetItemUrl(item);
                     retVal.Add(new SiteUrl { SiteName = site.Name, Url = url });
                 }
             }
 
             return retVal;
+        }
+
+        public virtual string GetMediaUrl(Item item)
+        {
+            return MediaManager.GetMediaUrl(item);
+        }
+
+        public virtual string GetItemUrl(Item item)
+        {
+            return LinkManager.GetItemUrl(item);
         }
 
         public virtual string BuildUrlTableMarkup(SiteUrl[] siteUrls)
